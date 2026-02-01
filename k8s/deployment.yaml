@@ -4,6 +4,8 @@ metadata:
   name: nextjs-hello
   labels:
     app: nextjs-hello
+  annotations:
+    gitops-test: "auto-sync-works"
 spec:
   replicas: 1
   revisionHistoryLimit: 3
