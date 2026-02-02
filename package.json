@@ -1,6 +1,6 @@
 {
   "name": "nextjs-hello",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +9,7 @@
   "dependencies": {
     "next": "15.1.7",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "prom-client": "^15.1.0"
   }
 }
